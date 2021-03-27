@@ -4,5 +4,5 @@ CREATE TABLE users (
   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   user_name TEXT NOT NULL,
   birth_month TEXT NOT NULL,
-  advise TEXT NOT NULL
+  advice TEXT NOT NULL
 );
